@@ -25,10 +25,21 @@ main {
     justify-content: space-around;
 }
 
+.title {
+    font-size: 50px;
+    margin: 0;
+}
+
+.instructions {
+    text-align: center;
+    margin: 0;
+}
+
 .dice-container {
     display: grid;
     grid-template: auto auto /repeat(5, 1fr);
     gap: 35px;
+    margin-bottom: 20px;
 }
 
 .die-face {
