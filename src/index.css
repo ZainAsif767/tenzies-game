@@ -22,7 +22,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .dice-container {
@@ -40,9 +40,31 @@ main {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    background-color: white;
 }
 
 .die-num {
     font-size: 2rem;
+}
+
+.roll-dice {
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035ff;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.roll-dice:focus {
+    outline: none;
+}
+
+.roll-dice:hover {
+    background-color: rgb(9, 44, 119);
+}
+
+.roll-dice:active {
+    box-shadow: inset 6px 6px 10px -3px rgba(0, 0, 0, 0.7);
 }
