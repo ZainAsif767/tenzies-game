@@ -35,8 +35,25 @@ main {
     margin: 0;
 }
 
+.count-roll {
+    font-size: 1.1rem;
+}
+
+.timer {
+    font-size: 1.1rem;
+}
+
+.start-menu {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: .8rem;
+}
+
 .dice-container {
     display: grid;
+
     grid-template: auto auto /repeat(5, 1fr);
     gap: 35px;
     margin-bottom: 20px;
@@ -58,14 +75,49 @@ main {
 }
 
 .roll-dice {
-    height: 50px;
-    width: 150px;
+    height: 45px;
+    width: 130px;
     border: none;
     border-radius: 6px;
     background-color: #5035ff;
     color: white;
     font-size: 1.2rem;
     cursor: pointer;
+    /* margin-left: 30px; */
+}
+
+.move {
+    margin: 0;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reset-dice {
+    height: 45px;
+    width: 130px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035ff;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.reset-dice:focus {
+    outline: none;
+}
+
+.reset-dice:hover {
+    background-color: rgb(100, 35, 35);
+}
+
+.reset-dice:active {
+    box-shadow: inset 6px 6px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 .roll-dice:focus {
