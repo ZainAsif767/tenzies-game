@@ -1,6 +1,6 @@
 # Tenzies Game
 
-It's a Tenzies game in which Roll until all dice are the same. And click each die to freeze it at its current value between 
+It's a Tenzies game in which you have to roll until all dice are the same. And click each die to freeze it at its current value between 
 rolls to win the game.
 
 ## Fork/Clone
